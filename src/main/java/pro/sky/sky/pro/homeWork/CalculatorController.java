@@ -28,9 +28,9 @@ public class CalculatorController {
 
     @GetMapping("/minus")
     public String minus(@RequestParam int num1, @RequestParam int num2) {
-        return calculatorService.minus(num1, num2);
+        return calculatorService.minus(num1,num2);
 
-    }@GetMapping("/multyply")
+    }@GetMapping("/multyply" )
     public String multyply(@RequestParam int num1, @RequestParam int num2){
         return calculatorService.multyply(num1,num2);
     }@GetMapping("/divide")
